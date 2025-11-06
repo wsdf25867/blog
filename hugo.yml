@@ -1,0 +1,21 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Ryan's Blog
+theme: hextra
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: Post
+      pageRef: /posts
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/wsdf25867"
+      params:
+        icon: github
