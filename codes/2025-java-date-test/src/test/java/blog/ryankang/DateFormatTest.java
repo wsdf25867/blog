@@ -4,11 +4,12 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.text.SimpleDateFormat;
-import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.WeekFields;
-import java.util.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
 import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
