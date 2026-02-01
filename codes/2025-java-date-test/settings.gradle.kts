@@ -1,1 +1,0 @@
-rootProject.name = "2025-java-date-test"
